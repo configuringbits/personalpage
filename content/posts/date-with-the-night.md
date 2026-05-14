@@ -8,7 +8,8 @@ cover:
   image: "</media/pc-on-bench-at-night-edited.webp>"
   alt: "++++"
   caption: "++++"
-  relative: false # To use relative path for cover image, used in hugo Page-bundles+++
+  relative: false # To use relative path for cover image, used in hugo Page-bundles
++++
 
 ### Late nights with server upgrades and troubleshooting
 
