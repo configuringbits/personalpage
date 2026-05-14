@@ -4,9 +4,7 @@ date: 2026-05-14
 ---
 ---
 cover:
-  image: "<image path/url>"
-  # can also paste direct link from external site
-  # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
+  image: "</media/pc-on-bench-at-night-edited.webp>"
   alt: "<alt text>"
   caption: "<text>"
   relative: false # To use relative path for cover image, used in hugo Page-bundles
