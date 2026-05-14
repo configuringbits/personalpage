@@ -7,5 +7,29 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;# About&lt;/p&gt;
+&lt;p&gt;**Configuring Bits** is a running log of practical technology work. Days and nights working on and playing with technology to solve problems. Problems of which some were my own making.&lt;/p&gt;
+&lt;p&gt;I focus on:&lt;/p&gt;
+&lt;p&gt;-   System configuration&lt;/p&gt;
+&lt;p&gt;-   Software integration&lt;/p&gt;
+&lt;p&gt;-   Network configuration and troubleshooting&lt;/p&gt;
+&lt;p&gt;-   Automation and workflow optimization&lt;/p&gt;
+&lt;p&gt;-   Debugging issues across platforms&lt;/p&gt;
+&lt;p&gt;I make tools, systems, and services work together efficiently.&lt;/p&gt;
+&lt;p&gt;That means I’m:&lt;/p&gt;
+&lt;p&gt;-   Cleaning up messy environments&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/home/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

@@ -2,3 +2,27 @@ baseURL = 'https://personalpage.configuringbits.workers.dev/'
 locale = 'en-us'
 title = 'Configuring Bits'
 theme = 'PaperMod'
+
+[[menu.main]]
+    name = "Posts"
+    url = "/posts"
+    weight = 10
+
+[[menu.main]]
+    name = "About"
+    url = "about"
+    weight = 20
+
+[params.homeInfoParams]
+    Title = "Make. Break. Fix."
+    Content = '''
+This is where I share what I’m building, what is broken, and what I wish I knew earlier.
+
+From side projects and debugging battles to workflow tweaks and technical deep dives, this blog is my running log of life in tech.
+
+Some posts will be tutorials.
+Some will be lessons learned the hard way.
+Some will just be ideas worth exploring.
+
+Thanks for stopping by, feel free to explore
+'''
