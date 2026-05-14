@@ -2,6 +2,10 @@ media:
   input: content/media
   output: /media
 content:
+  - name: pages
+    label: Pages
+    type: collection
+    path: content
   - name: posts
     label: Posts
     type: collection
