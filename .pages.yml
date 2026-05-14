@@ -11,8 +11,22 @@ content:
         type: string
       - name: date
         type: string
-      - name: CoverImage
-        type: image
+      - name: cover
+        label: Post Cover
+        type: object
+        fields:
+          - name: image
+            label: Image URL
+            type: string
+            help: "Direct link or path (e.g., https://i.ibb.co/...)"
+          - name: alt
+            label: Alt Text
+            type: string
+            help: "Description for accessibility"
+          - name: caption
+            label: Caption
+            type: string
+            help: "Text displayed under the image"
       - name: body
         type: rich-text
   - name: pages
