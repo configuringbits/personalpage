@@ -6,6 +6,13 @@ content:
     label: Pages
     type: collection
     path: content
+    fields:
+      - name: title
+        type: string
+      - name: date
+        type: string
+      - name: body
+        type: rich-text
   - name: posts
     label: Posts
     type: collection
