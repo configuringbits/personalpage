@@ -1,6 +1,5 @@
 ---
 title: About
-date: 2026-05-14
 ---
 **Configuring Bits** is a running log of practical technology work. Days and nights working on and playing with technology to solve problems. Problems of which some were my own making.
 
