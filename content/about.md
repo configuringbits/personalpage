@@ -1,3 +1,11 @@
++++
+date = '2026-05-14T00:01:45-04:00'
+draft = true
+title = 'About'
++++
+
+
+
 \# About
 
 
@@ -10,15 +18,15 @@ I focus on:
 
 
 
-\-   System configuration
+\- System configuration
 
-\-   Software integration
+\- Software integration
 
-\-   Network configuration and troubleshooting
+\- Network configuration and troubleshooting
 
-\-   Automation and workflow optimization
+\- Automation and workflow optimization
 
-\-   Debugging issues across platforms
+\- Debugging issues across platforms
 
 
 
@@ -30,15 +38,15 @@ That means I’m:
 
 
 
-\-   Cleaning up messy environments
+\- Cleaning up messy environments
 
-\-   Writing small scripts
+\- Writing small scripts
 
-\-   Tweaking configs
+\- Tweaking configs
 
-\-   Reverse-engineering errors
+\- Reverse-engineering errors
 
-\-   Connecting APIs
+\- Connecting APIs
 
 
 
@@ -46,11 +54,11 @@ Which makes me the guy who:
 
 
 
-\-   Makes things work
+\- Makes things work
 
-\-   Reads the logs
+\- Reads the logs
 
-\-   Tweaks the config file
+\- Tweaks the config file
 
-\-   Automates the repetitive processes
+\- Automates the repetitive processes
 
