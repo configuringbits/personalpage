@@ -12,7 +12,7 @@ content:
       - name: date
         type: string
       - name: CoverImage
-        type: cover.image
+        type: image
       - name: body
         type: rich-text
   - name: pages
