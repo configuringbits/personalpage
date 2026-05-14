@@ -1,14 +1,9 @@
 ---
 title: A Date With the Night
 ---
-+++
-date = '2026-05-14T00:05:54-04:00'
-draft = true
-title = 'Date With the Night'+++
-
-
-
 ### Late nights with server upgrades and troubleshooting
+
+![](/media/pc-on-bench-at-night-edited.webp)
 
 When your homelab becomes a production server and your users come to expect those services, it’s hard to find a good time for maintenance. In addition to that, when server hardware is being upgraded and parts being swapped out, downtime is a bit more extensive than simply spinning up services on new hardware. That was the situation that I ran into.
 
