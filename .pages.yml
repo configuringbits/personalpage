@@ -11,6 +11,8 @@ content:
         type: string
       - name: body
         type: rich-text
+      - name: date
+        type: string
   - name: site
     label: Site settings
     type: file
