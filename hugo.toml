@@ -1,0 +1,4 @@
+baseURL = 'https://personalpage.configuringbits.workers.dev/'
+locale = 'en-us'
+title = 'Configuring Bits'
+theme = 'PaperMod'
