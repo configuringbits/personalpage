@@ -1,16 +1,9 @@
 ---
 title: A Date With the Night
 date: 2026-05-14
-CoverImage: /media/pc-on-bench-at-night-edited.webp
----
-+++
 cover:
-  image: "</media/pc-on-bench-at-night-edited.webp>"
-  alt: "++++"
-  caption: "++++"
-  relative: false # To use relative path for cover image, used in hugo Page-bundles
-+++
-
+  image: /media/pc-on-bench-at-night-edited.webp
+---
 ### Late nights with server upgrades and troubleshooting
 
 ![](/media/pc-on-bench-at-night-edited.webp)
