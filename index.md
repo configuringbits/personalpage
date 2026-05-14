@@ -1,0 +1,67 @@
+   A date with the night - Configuring Bits 2                 {"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"file:///C:\\\\Users\\\\craig\\\\OneDrive\\\\Documents\\\\Publii\\\\sites\\\\configuring-bits-2\\\\preview/a-date-with-the-night.html"},"headline":"A date with the night","datePublished":"2026-05-12T23:57-04:00","dateModified":"2026-05-12T23:57-04:00","image":{"@type":"ImageObject","url":"file:///C:/Users/craig/OneDrive/Documents/Publii/sites/configuring-bits-2/preview/media/posts/1/pc-on-bench-at-night-edited.webp","height":576,"width":1024},"description":"Late nights with server upgrades and troubleshooting When your homelab becomes a production server and your users come to expect those services, it’s hard to find a good time for maintenance. In addition to that, when server hardware is being upgraded and parts being swapped&hellip;","author":{"@type":"Person","name":"Craig","url":"file:///C:/Users/craig/OneDrive/Documents/Publii/sites/configuring-bits-2/preview/authors/craig/"},"publisher":{"@type":"Organization","name":"Craig"}}
+
+img\[loading\] { opacity: 1; }
+
+[Configuring Bits 2](file:///C:/Users/craig/OneDrive/Documents/Publii/sites/configuring-bits-2/preview/index.html)
+
+Menu
+
+-   [About](file:///C:\Users\craig\OneDrive\Documents\Publii\sites\configuring-bits-2\preview/about.html)
+
+# A date with the night
+
+[Craig](file:///C:\Users\craig\OneDrive\Documents\Publii\sites\configuring-bits-2\preview/authors/craig/index.html) May 12, 2026
+
+![](file:///C:/Users/craig/OneDrive/Documents/Publii/sites/configuring-bits-2/preview/media/posts/1/pc-on-bench-at-night-edited.webp)
+
+#### Late nights with server upgrades and troubleshooting
+
+When your homelab becomes a production server and your users come to expect those services, it’s hard to find a good time for maintenance. In addition to that, when server hardware is being upgraded and parts being swapped out, downtime is a bit more extensive than simply spinning up services on new hardware. That was the situation that I ran into.
+
+Previous Hardware:
+
+-   Intel i3-9100
+-   24GB DDR4
+-   ASRock motherboard
+
+New Hardware:
+
+-   Intel Core 5 Ultra 235
+-   MSI Pro B860M-A WiFi motherboard
+-   16GB DDR5 ($$$)
+
+The Intel i3-9100 was getting long in the tooth for the services I wanted to run. I was also running baremetal Ubuntu and wanted to take Proxmox for a spin to add more flexibility to my setup once I was on new hardware with additional headroom. I chose to upgrade to an Intel Core 5 Ultra 235. It gave me some headroom and fit the budget. I paired it with an MSI Pro B860M-A WiFi motherboard and was prepared to swap it in to my existing system. I bought 16GB of RAM right as prices started creeping up. I could use some more but that is probably a sentiment that most people have these days.  
+  
+I anticipated my biggest issues would be getting Proxmox running as I only had played with it a little on an older box I had sitting around with limited resources so I wasn’t able to spin up too many things. Boy, was I wrong.
+
+After finding a couple nights where downtime wouldn’t be much of an issue, I pulled the computer out of the rack, set it down on the table and started gutting. I pulled out the old CPU and motherboard and installed the new one. Got it all wired up and…nothing. It wouldn’t turn on. Dead as a doornail. After several hours of troubleshooting and research, doing the paperclip test, verify the power supply was still working, etc., I realized that my old ATX v2.x power supply just might not be up to the task of powering the Ultra 235 unlike a newer 3.x ATX power supply. The fans wouldn’t kick over. The LED’s on the motherboard wouldn’t light. There were no beeps from the motherboard (I installed a speaker). It appeared that the safeguards on the power supply for over current protection were likely being triggered by the quick current spikes the Ultra 235 was pulling. A day later, with a new power supply ready to go, I was able to get the machine booted up.
+
+I had a rescuezilla image of the entire baremetal system. I was able to set up Proxmox, mount a rescuezilla ISO and a drive with the image and restore the image into the VM. I had to update some IP addressing but most of the services came back up after I had worked through hardware pass-through issues.
+
+This article was updated on May 12, 2026
+
+Share It
+
+### [Craig](file:///C:\Users\craig\OneDrive\Documents\Publii\sites\configuring-bits-2\preview/authors/craig/index.html)
+
+[
+
+Next A high (air) quality adventure with ESPHome and a PMSA003I sensor
+
+![](file:///C:/Users/craig/OneDrive/Documents/Publii/sites/configuring-bits-2/preview/media/posts/2/responsive/circuit-boards-1-xs.webp)
+
+](file:///C:\Users\craig\OneDrive\Documents\Publii\sites\configuring-bits-2\preview/a-high-air-quality-adventure-with-esphome-and-a-pmsa003i-sensor.html)
+
+## You should also read:
+
+May 13, 2026
+
+### [A high (air) quality adventure with ESPHome and a PMSA003I sensor](file:///C:\Users\craig\OneDrive\Documents\Publii\sites\configuring-bits-2\preview/a-high-air-quality-adventure-with-esphome-and-a-pmsa003i-sensor.html)
+
+If you’ve ever tinkered with DIY IoT devices, specifically air quality monitoring, you know that not all sensors are created equal. My recent project, an air quality monitor built on a NodeMCU v2 (ESP8266), taught me a humbling lesson. What should have been a simple…
+
+[Continue reading...](file:///C:\Users\craig\OneDrive\Documents\Publii\sites\configuring-bits-2\preview/a-high-air-quality-adventure-with-esphome-and-a-pmsa003i-sensor.html)
+
+Powered by Publii
+
+window.publiiThemeMenuConfig={mobileMenuMode:'sidebar',animationSpeed:300,submenuWidth: 'auto',doubleClickTime:500,mobileMenuExpandableSubmenus:true,relatedContainerForOverlayMenuSelector:'.top'}; var images = document.querySelectorAll('img\[loading\]'); for (var i = 0; i < images.length; i++) { if (images\[i\].complete) { images\[i\].classList.add('is-loaded'); } else { images\[i\].addEventListener('load', function () { this.classList.add('is-loaded'); }, false); } }
