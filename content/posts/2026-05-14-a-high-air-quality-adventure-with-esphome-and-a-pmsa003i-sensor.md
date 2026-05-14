@@ -1,11 +1,11 @@
 ---
 title: A high (air) quality adventure with ESPHome and a PMSA003I sensor
 date: 2026-05-14
+cover:
+  image: /media/circuit-boards-1.webp
+  alt: AI generated representation of the PMSA003I and ESP8266
+  caption: AI generated representation of the PMSA003I and ESP8266
 ---
-![](/media/circuit-boards-1.webp)
-
-AI generated representation of the PMSA003I and ESP8266
-
 If you’ve ever tinkered with DIY IoT devices, specifically air quality monitoring, you know that not all sensors are created equal. My recent project, an air quality monitor built on a NodeMCU v2 (ESP8266), taught me a humbling lesson. What should have been a simple plug-and-play integration turned into a “dead as a doornail” scenario involving reverse polarity, almost smoke, and a sensor that refused to speak until it had a 30-second warm-up period.
 
 ## Expectation vs. Reality: The “Sensing” Silent Treatment
