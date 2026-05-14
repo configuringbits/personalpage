@@ -2,13 +2,13 @@
 title: A Date With the Night
 date: 2026-05-14
 ---
----
++++
 cover:
   image: "</media/pc-on-bench-at-night-edited.webp>"
   alt: "<alt text>"
   caption: "<text>"
   relative: false # To use relative path for cover image, used in hugo Page-bundles
----
++++
 
 ### Late nights with server upgrades and troubleshooting
 
