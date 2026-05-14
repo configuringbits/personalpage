@@ -1,4 +1,4 @@
-baseURL = 'https://your-site.pages.dev/'
-languageCode = 'en-us'
-title = 'My New Site'
+baseURL = 'https://example.org/'
+locale = 'en-us'
+title = 'My New Hugo Project'
 theme = 'PaperMod'
