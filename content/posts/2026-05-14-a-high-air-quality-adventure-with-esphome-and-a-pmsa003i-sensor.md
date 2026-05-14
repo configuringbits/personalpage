@@ -1,8 +1,7 @@
 ---
 title: A high (air) quality adventure with ESPHome and a PMSA003I sensor
+date: 2026-05-14
 ---
-
-
 ![](/media/circuit-boards-1.webp)
 
 AI generated representation of the PMSA003I and ESP8266
@@ -13,7 +12,7 @@ If you’ve ever tinkered with DIY IoT devices, specifically air quality monitor
 
 The goal was simple: read particulate matter data from the Adafruit PMSA003I over I2C. However, I hit a wall immediately. If the ESP8266 and the PMSA003I powered up at the same time, the sensor was a ghost. It wouldn’t show up on the bus, and ESPHome would report the I2C scan did not detect a device at 0x12 (it’s hardcoded address). It would set the sensor component as “marked as failed”.
 
- 
+
 
 This exposed a fundamental friction between firmware and hardware. ESPHome is aggressive; it attempts to initialize components milliseconds after boot. The PMSA003I, however, is a “slow riser.” It needs time for its internal fan to reach a specific RPM and its laser to stabilize before its internal firmware is ready to handle I2C requests. If the handshake fails during that initial boot window, ESPHome locks the component in a failed state and refuses to try again, even if the sensor wakes up seconds later.
 
@@ -27,7 +26,7 @@ Beyond the electrical scare, I discovered the ESP8266’s onboard 3.3V regulator
 
 To get the system stable, I had to take manual control of the timing. The fix required aligning three independent variables: power state, warm-up time, and initialization priority. By utilizing the SET (D5) and RESET (D6) pins on the PMSA003I, I wrote a cold-start script that holds the sensor in a hardware reset state while the ESP8266 stabilizes, then releases it for a mandatory 30-second countdown.
 
- 
+
 
 The breakthrough was using setup_priority in the YAML for the ESP8266. By setting the sensor’s priority to a negative value (e.g., -200), I forced the ESPHome driver to wait until my 30-second boot script finished before it even attempted the first I2C handshake.
 
