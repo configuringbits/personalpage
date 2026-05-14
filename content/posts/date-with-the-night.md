@@ -1,5 +1,6 @@
 ---
 title: A Date With the Night
+date: 2026-05-14
 ---
 ### Late nights with server upgrades and troubleshooting
 
