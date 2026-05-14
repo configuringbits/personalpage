@@ -1,4 +1,4 @@
-baseURL = 'https://personalpage.configuringbits.workers.dev/'
+baseURL = 'https://configuringbits.com/'
 locale = 'en-us'
 title = 'Configuring Bits'
 theme = 'PaperMod'
