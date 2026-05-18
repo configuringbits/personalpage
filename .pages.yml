@@ -11,6 +11,8 @@ content:
         type: string
       - name: date
         type: string
+      - name: draft
+        type: boolean
       - name: cover
         label: Post Cover
         type: object
