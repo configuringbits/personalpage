@@ -1,5 +1,6 @@
 ---
-title: "The 100GB Log Trap: When Docker Logs Swallow Your Server"
+title: "A 100GB Log Trap: When Docker Logs Swallow Your Server"
+date: 2026-05-17
 draft: true
 ---
 I woke up this morning to a server that was acting strange. Some docker services appeared to be working fine while others were completely down and others still worked okay but reported as "unhealthy". It started with a couple select cameras in Frigate appearing offline, which usually means a quick container restart. But when I tried to kick Frigate back into gear to check the cameras, I was met with an error message along the lines of "Restart of container failed. No disk space available."
