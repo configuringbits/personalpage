@@ -1,6 +1,6 @@
 ---
 title: A Date With the Night
-date: 2026-05-14
+date: 2026-02-19
 cover:
   image: /media/pc-on-bench-at-night-edited.webp
 ---
