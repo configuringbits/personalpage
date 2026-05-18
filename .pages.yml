@@ -12,7 +12,7 @@ content:
         type: string
       - name: date
         label: Date
-        type: string
+        type: date
       - name: draft
         label: Draft
         type: boolean
