@@ -3,11 +3,11 @@ title: About
 ---
 ### What is it?
 
-Configuring Bits is a running log of practical technology work. Days and nights working on and playing with technology to solve problems. Problems of which some were my own making.
+Configuring Bits is a running log of practical technology work. Days and nights working on, and playing with, technology to solve problems. Problems of which some are my own making.
 
 I focus on system configuration, software integrations, network configuration and troubleshooting, automation and workflow optimizations, and debugging issues across platforms.
 
-I make tools, systems, and services work together efficiently.
+I make tools, systems, and services all work together efficiently.
 
 That means I’m:
 
