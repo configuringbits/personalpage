@@ -1,6 +1,6 @@
 ---
 title: A high (air) quality adventure with ESPHome and a PMSA003I sensor
-date: 2026-05-14
+date: 2026-04-16
 cover:
   image: /media/circuit-boards-1.webp
   alt: AI generated representation of the PMSA003I and ESP8266
