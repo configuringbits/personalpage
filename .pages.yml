@@ -21,8 +21,8 @@ content:
         type: object
         fields:
           - name: image
-            label: Image URL
-            type: string
+            label: Image
+            type: image
             help: "Direct link or path (e.g., https://i.ibb.co/...)"
           - name: alt
             label: Alt Text
