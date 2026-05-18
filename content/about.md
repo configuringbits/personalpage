@@ -26,5 +26,5 @@ Which makes me the guy who:
 
 ### What's with the name?
 
-I liked it. "Configuring Bits" has two different interpretations depending on how I read it. I'm always configuring bits of things like hardware configurations, software configurations, interconnecting different systems, and lots of other things. The other interpretation I have is in relation to automation where the bits themselves can configure into arrangements to do work. So, the double meaning kind of works.
+I liked it. "Configuring Bits" has two different interpretations depending on how I think about it. I'm always configuring bits of things like hardware configurations, software configurations, interconnecting different systems, and lots of other things. The other interpretation I have is in relation to automation where the bits themselves can configure into arrangements to do work. So, the double meaning kind of works.
 
