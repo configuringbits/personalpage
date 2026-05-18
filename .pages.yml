@@ -8,10 +8,13 @@ content:
     path: content/posts
     fields:
       - name: title
+        label: Title
         type: string
       - name: date
+        label: Date
         type: string
       - name: draft
+        label: Draft
         type: boolean
       - name: cover
         label: Post Cover
