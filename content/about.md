@@ -7,9 +7,9 @@ Configuring Bits is a running log of practical technology work. Days and nights 
 
 I focus on system configuration, software integrations, network configuration and troubleshooting, automation and workflow optimizations, and debugging issues across platforms.
 
-I make tools, systems, and services all work together efficiently.
+I make sure tools, systems, and services all work together efficiently.
 
-That means I’m cleaning up messy environments, writing scripts to solve problems, tweaking configs, reverse-engineering errors, and connecting APIs. Which means I'm the guy who reads a lot of logs, tweaks config files, automates the repetitive tasks, and just generally makes things work and tries to keep them that way.
+That means I’m cleaning up messy environments, writing scripts to solve problems, tweaking configs, reverse-engineering errors, and connecting APIs. I'm the guy who is reading through logs, automating the repetitive tasks, and just generally making things work and trying to keep them that way.
 
 ### What's with the name?
 
