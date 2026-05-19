@@ -1,8 +1,10 @@
 ---
 title: A Date With the Night
 date: 2026-02-19
+draft: false
 cover:
   image: /media/pc-on-bench-at-night-edited.webp
+  alt: AI generated image of a computer on a workbench
 ---
 ### Late nights with server upgrades and troubleshooting
 
