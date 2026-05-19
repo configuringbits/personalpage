@@ -2,8 +2,10 @@
 title: "A 100GB Log Trap: When Docker Logs Swallow Your Server"
 date: 2026-05-17
 draft: true
+cover:
+  image: /media/AI-Logs image.png
 ---
-I woke up this morning to a server that was acting strange. Some docker services appeared to be working fine while others were completely down and others still worked okay but reported as "unhealthy". It started with a couple select cameras in Frigate appearing offline, which usually means a quick container restart. But when I tried to kick Frigate back into gear to check the cameras, I was met with an error message along the lines of "Restart of container failed. No disk space available."
+I woke up the other day to a server that was acting strange. Some docker services appeared to be working fine while others were completely down and others still worked okay but reported as "unhealthy". It started with a couple select cameras in Frigate appearing offline, which usually means a quick container restart. But when I tried to kick Frigate back into gear to check the cameras, I was met with an error message along the lines of "Restart of container failed. No disk space available."
 
 My 240GB VM storage drive, which usually sits comfortably with about 100GB of breathing room, was completely maxed out. Using `df -h` the system reported 0MB available on the VM OS drive.
 
