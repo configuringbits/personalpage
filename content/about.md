@@ -9,20 +9,7 @@ I focus on system configuration, software integrations, network configuration an
 
 I make tools, systems, and services all work together efficiently.
 
-That means I’m:
-
-- Cleaning up messy environments
-- Writing small scripts
-- Tweaking configs
-- Reverse-engineering errors
-- Connecting APIs
-
-Which makes me the guy who:
-
-- Reads the logs
-- Tweaks the config file
-- Automates the repetitive processes
-- Just generally makes things work
+That means I’m cleaning up messy environments, writing scripts to solve problems, tweaking configs, reverse-engineering errors, and connecting APIs. Which means I'm the guy who reads a lot of logs, tweaks config files, automates the repetitive tasks, and just generally makes things work and tries to keep them that way.
 
 ### What's with the name?
 
